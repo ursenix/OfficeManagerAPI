@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeManager.Models", "OfficeManager.Models\OfficeManager.Models.csproj", "{F8920A90-2F7D-4D35-B853-B0369472E28F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeManager.API", "OfficeManager.API\OfficeManager.API.csproj", "{8255748F-B384-4E0C-953D-E9164C07CC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeManager.Services", "OfficeManager.Services\OfficeManager.Services.csproj", "{7EC948C7-EB62-46AD-9A4A-8C757E90D840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeManager.Data", "OfficeManager.Data\OfficeManager.Data.csproj", "{5B5D8B9C-E89B-4C49-B575-9724631CD289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeManager.Utilities", "OfficeManager.Utilities\OfficeManager.Utilities.csproj", "{B0BA288A-E3F9-4BB9-AF85-9F0EA6DEA685}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OfficeManager.Database", "OfficeManager.Database\OfficeManager.Database.sqlproj", "{C0798714-2064-4B94-8773-414019DAC021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8920A90-2F7D-4D35-B853-B0369472E28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8920A90-2F7D-4D35-B853-B0369472E28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8920A90-2F7D-4D35-B853-B0369472E28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8920A90-2F7D-4D35-B853-B0369472E28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8255748F-B384-4E0C-953D-E9164C07CC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8255748F-B384-4E0C-953D-E9164C07CC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8255748F-B384-4E0C-953D-E9164C07CC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8255748F-B384-4E0C-953D-E9164C07CC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC948C7-EB62-46AD-9A4A-8C757E90D840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC948C7-EB62-46AD-9A4A-8C757E90D840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC948C7-EB62-46AD-9A4A-8C757E90D840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC948C7-EB62-46AD-9A4A-8C757E90D840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5D8B9C-E89B-4C49-B575-9724631CD289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5D8B9C-E89B-4C49-B575-9724631CD289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5D8B9C-E89B-4C49-B575-9724631CD289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5D8B9C-E89B-4C49-B575-9724631CD289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0BA288A-E3F9-4BB9-AF85-9F0EA6DEA685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BA288A-E3F9-4BB9-AF85-9F0EA6DEA685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BA288A-E3F9-4BB9-AF85-9F0EA6DEA685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BA288A-E3F9-4BB9-AF85-9F0EA6DEA685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0798714-2064-4B94-8773-414019DAC021}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
